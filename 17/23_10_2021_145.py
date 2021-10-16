@@ -22,3 +22,5 @@ for i in range(3399, 225600):
         countN += 1
 print(maxN, countN)
 
+# Самостоятельно решить задачи 140, 128, 81
+
