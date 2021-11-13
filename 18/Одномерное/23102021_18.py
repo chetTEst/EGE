@@ -6,7 +6,7 @@ for i in range(1, len(data)):
     if float(data[i]) > float(data[i-1]):
         summ += float(data[i])
     else:
-        summ = float(data[i])
+        summ = float(data[i]) #0
     if summ > maxSum:
         maxSum = summ
 print(maxSum)
